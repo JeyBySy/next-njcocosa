@@ -1,0 +1,12 @@
+.tags {
+  position: absolute;
+  width: fit-content;
+  left: 0;
+  background-color: blue;
+}
+.left {
+  position: absolute;
+  width: fit-content;
+  left: 0;
+  background-color: blue;
+}
