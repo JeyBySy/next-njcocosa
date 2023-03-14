@@ -1,6 +1,7 @@
-import styles from "./Nav.module.css";
+import styles from "./Nav.module.scss";
 import Image from "next/image";
 import { Button } from '../index'
+
 
 const Nav = () => {
     return (

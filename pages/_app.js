@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import MainLayout from '../layouts/mainLayout'
 import { Nav, Footer } from '../components/global/index'
 import { useRouter } from "next/router";
@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
     <>
-      <ParticleBG />
+      {/* <ParticleBG /> */}
       {router.pathname === "/" ? (
         <>
           <Nav />

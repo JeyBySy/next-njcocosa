@@ -1,0 +1,19 @@
+@import "styles/variables.scss";
+.nav {
+  margin: auto;
+  background-color: $primary;
+  z-index: 1;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  position: relative;
+}
+.nav ul {
+  padding: 10px 20px 10px 50px;
+  display: flex;
+  align-items: center;
+  /* background: #191d25; */
+  list-style: none;
+  gap: 0.5rem;
+}
