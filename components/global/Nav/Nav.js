@@ -18,12 +18,12 @@ const Nav = () => {
                     /> */}
                     NJVC LOGO
                 </div>
-                <div className={styles.nav_buttons}>
+                <div>
                     <ul>
-                        <Button href_link={'/'} btn_title='About Me' />
-                        <Button href_link={'/contact'} btn_title='Contact' />
-                        <Button href_link={'/project'} btn_title="Projects" />
-                        <Button href_link={"/resume"} btn_title='Resume' />
+                        <Button link={'/'} btn_title='About Me' />
+                        <Button link={'/contact'} btn_title='Contact' />
+                        <Button link={'/project'} btn_title="Projects" />
+                        <Button link={"/resume"} btn_title='Resume' />
                     </ul>
                 </div>
             </div>

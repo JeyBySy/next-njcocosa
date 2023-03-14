@@ -2,10 +2,10 @@ import React from 'react'
 import Link from "next/link";
 import style from './Button.module.css'
 
-function Button({ href_link, btn_title }) {
+function Button({ link, btn_title }) {
     return (
         <>
-            <Link href={href_link} >
+            <Link href={link} >
                 <div className={style.btn}>{btn_title}</div>
             </Link>
         </>
